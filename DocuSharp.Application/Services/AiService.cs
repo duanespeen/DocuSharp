@@ -35,7 +35,7 @@ namespace DocuSharp.Application.Services
             {
                 Messages = new List<ChatMessage>
                 {
-                    ChatMessage.FromSystem("You are a C# Annex D Documentation comments writer"),
+                    ChatMessage.FromSystem("You are a C# Documentation comments writer"),
                     ChatMessage.FromUser(
                         @"Add C# Annex D Documentation comments to the following code: Console.WriteLine(""Hello World!"");"),
                     ChatMessage.FromAssistance(
