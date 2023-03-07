@@ -2,6 +2,6 @@
 
 public interface IFileService
 {
-    List<KeyValuePair<string, string[]>> ReadFile(string path);
+    KeyValuePair<string, string[]> ReadFile(string path);
     void ReplaceFileContent(string path, string content);
 }
