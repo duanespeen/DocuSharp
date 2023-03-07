@@ -15,6 +15,7 @@ public class DocGen : Microsoft.Extensions.Hosting.BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        Console.WriteLine("Enter file path: ");
         var fileContent = _fileService.ReadFile(Console.ReadLine());
         _fileService.ReplaceFileContent(fileContent.Key, await _aiService.GenerateDocs(string.Concat(fileContent.Value)));
     }
