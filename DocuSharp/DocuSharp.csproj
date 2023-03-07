@@ -3,19 +3,19 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>doc_gen</RootNamespace>
+        <RootNamespace>DocuSharp</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.7.2" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.1.23110.8" />
-      <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-preview.1.23110.8" />
+        <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.7.2"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.1.23110.8"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-preview.1.23110.8"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DocuSharp.Application\DocuSharp.Application.csproj" />
+        <ProjectReference Include="..\DocuSharp.Application\DocuSharp.Application.csproj"/>
     </ItemGroup>
 
 </Project>

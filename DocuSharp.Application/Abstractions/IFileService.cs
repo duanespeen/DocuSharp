@@ -1,4 +1,4 @@
-﻿namespace doc_gen.Services;
+﻿namespace DocuSharp.Application.Abstractions;
 
 public interface IFileService
 {

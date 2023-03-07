@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>doc_gen.Domain</RootNamespace>
+        <RootNamespace>DocuSharp.Application</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.7.2" />
+        <PackageReference Include="Betalgo.OpenAI.GPT3" Version="6.7.2"/>
     </ItemGroup>
 
 </Project>

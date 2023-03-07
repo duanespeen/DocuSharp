@@ -1,9 +1,10 @@
-﻿using OpenAI.GPT3;
+﻿using DocuSharp.Application.Abstractions;
+using OpenAI.GPT3;
 using OpenAI.GPT3.Managers;
 using OpenAI.GPT3.ObjectModels;
 using OpenAI.GPT3.ObjectModels.RequestModels;
 
-namespace doc_gen.Services;
+namespace DocuSharp.Application.Services;
 
 public class AiService : IAiService
 {
@@ -11,7 +12,7 @@ public class AiService : IAiService
 
     public AiService()
     {
-        _openAiService = new OpenAIService(new OpenAiOptions()
+        _openAiService = new OpenAIService(new OpenAiOptions
         {
             ApiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY")
         });
@@ -34,15 +35,12 @@ public class AiService : IAiService
                         Console.WriteLine(""Hello World!"");
                     "),
                 ChatMessage.FromUser(
-                    $"Add C# Annex D Documentation comments only on the Class Methods, this means you can ignore the Constructor too, of the following code: {text}"),
+                    $"Add C# Annex D Documentation comments only on the Class Methods, this means you can ignore the Constructor too, of the following code: {text}")
             },
             Model = Models.ChatGpt3_5Turbo
         });
 
-        if (!completionResult.Successful)
-        {
-            throw new Exception(completionResult.Error.Message);
-        }
+        if (!completionResult.Successful) throw new Exception(completionResult.Error.Message);
 
         return completionResult.Choices
             .Select(x => x.Message.Content)
