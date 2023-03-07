@@ -1,0 +1,12 @@
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\bin\Debug\net7.0\doc-gen.Application.deps.json
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\bin\Debug\net7.0\doc-gen.Application.dll
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\bin\Debug\net7.0\doc-gen.Application.pdb
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.csproj.AssemblyReference.cache
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.AssemblyInfoInputs.cache
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.AssemblyInfo.cs
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.csproj.CoreCompileInputs.cache
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.dll
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\refint\doc-gen.Application.dll
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\doc-gen.Application.pdb
+C:\Users\duane\RiderProjects\doc-gen\doc-gen.Application\obj\Debug\net7.0\ref\doc-gen.Application.dll
