@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doc-gen", "doc-gen\doc-gen.csproj", "{D2EF4D11-ACDA-42E1-ACC8-E1784FA93867}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuSharp", "DocuSharp\DocuSharp.csproj", "{D2EF4D11-ACDA-42E1-ACC8-E1784FA93867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doc-gen.Application", "doc-gen.Application\doc-gen.Application.csproj", "{7B536E7A-97AC-4931-B63C-5AFAB814486B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuSharp.Application", "DocuSharp.Application\DocuSharp.Application.csproj", "{7B536E7A-97AC-4931-B63C-5AFAB814486B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

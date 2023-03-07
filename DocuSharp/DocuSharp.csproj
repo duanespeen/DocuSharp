@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\doc-gen.Application\doc-gen.Application.csproj" />
+      <ProjectReference Include="..\DocuSharp.Application\DocuSharp.Application.csproj" />
     </ItemGroup>
 
 </Project>
