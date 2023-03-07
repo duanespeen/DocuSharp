@@ -1,5 +1,5 @@
 # DocuSharp
- A tool that uses the power of ChatGPT to generate documentation for your C# code
+ A tool that uses the power of ChatGPT to generate Annex D Documentation comments for your C# code
 
 ## Information
 **WORK IN PROGRESS**
