@@ -37,14 +37,14 @@ namespace DocuSharp.Application.Services
                 {
                     ChatMessage.FromSystem("You are a C# Documentation comments writer"),
                     ChatMessage.FromUser(
-                        @"Add C# Annex D Documentation comments to the following code: Console.WriteLine(""Hello World!"");"),
+                        @"Add C# Documentation comments to the following code: Console.WriteLine(""Hello World!"");"),
                     ChatMessage.FromAssistance(
                         @"/// <summary>                        
                           /// Writes the message ""Hello World!"" to the console.                        
                           /// </summary> 
                           Console.WriteLine(""Hello World!"");"),
                     ChatMessage.FromUser(
-                        $"Add C# Annex D Documentation comments only on the Class Methods, this means you can ignore the Constructor too, of the following code: {text}")
+                        $"Add C# Documentation comments only on the Class Methods, this means you can ignore the Constructor too, of the following code: {text}")
                 },
                 Model = Models.ChatGpt3_5Turbo
             });
